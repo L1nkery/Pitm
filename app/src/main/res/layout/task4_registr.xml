@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task4">
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="400dp"
+        android:maxWidth="200dp"
+        android:text="Регистр — это условное разделение диапазона звуков по высоте. Он определяет, к какой части звукового спектра (низкой, средней или высокой) относятся ноты в музыкальном произведении, голосе или инструменте.
+Регистр помогает описать характер и окраску звука, а также его роль в музыке.
+\n\nВиды регистров
+\nНизкий регистр
+\nГлубокие, басовые звуки (например, контрабас, туба, низкие ноты фортепиано). Создает ощущение тяжести, мрачности, мощности или таинственности."
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/tube"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="50dp"
+        android:onClick="click_next"
+        android:text="Далее"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task5">
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="200dp"
+        android:maxWidth="200dp"
+        android:text="Тембр — это характеристика звука, которая позволяет различать звуки, даже если они одинаковы по высоте. Тембр помогает нам различать одну и ту же ноту, сыгранную на разных инструментах. Они будут звучать по-разному.
+Обертон и гармоника — это основные понятия в теории звука, описывающие его частотный состав. Эти явления объясняют, почему одни музыкальные инструменты звучат «теплее» или «ярче», чем другие, и как создаётся богатство звука в акустических системах."
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/tembr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="50dp"
+        android:onClick="click_next"
+        android:text="Далее"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

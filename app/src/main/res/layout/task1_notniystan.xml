@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task1">
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="400dp"
+        android:maxWidth="200dp"
+        android:text="Нотный стан — это основа для записи музыкальных звуков. Он состоит из пяти горизонтальных линий. Ноты записываются на линиях, между линиями, а также могут выходить за пределы нотного стана с помощью добавочных линий. Читать запись c меньшим или большим количеством линий было бы неудобно. Линии и промежутки считаются снизу вверх. Нижняя линия — это самая низкая нота"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/not_stan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="50dp"
+        android:onClick="click_next"
+        android:text="Далее"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CatalogTasks">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="90dp"
+        android:text="Каталог заданий"
+        android:textSize="26dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <Button
+        android:onClick="click_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        android:text="Следущее задание"/>
+    <Button
+        android:onClick="click_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="50dp"
+        android:text="1. Нотный стан"/>
+    <Button
+        android:onClick="click_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:text="2. Запись нот"/>
+    <Button
+        android:onClick="click_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="50dp"
+        android:text="3. Знакомство с клавиатурой"/>
+    <Button
+        android:onClick="click_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="50dp"
+        android:text="4. Регистр"/>
+    <Button
+        android:onClick="click_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="50dp"
+        android:text="5. Тембр"/>
+    <Button
+        android:onClick="click_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="50dp"
+        android:text="6. Запись нот на нотном стане"/>
+    <Button
+        android:onClick="click_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="50dp"
+        android:text="7. Вокальная группировка"/>
+    <Button
+        android:onClick="click_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="50dp"
+        android:text="Проверка"/>
+    <Button
+        android:id="@+id/click_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="650dp"
+        android:layout_marginStart="50dp"
+        android:text="Следующие задания"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
